@@ -1,6 +1,9 @@
 #if !__INCLUDE_LEVEL__
 #include __FILE__
 
+// 生成AI対策ルール20261014版に基づくテンプレートの開示
+// https://github.com/Puramu-discord/AtCoder-Template-puramu/tree/main
+
 bool hasAny(const string &S, const string &D) {
     return S.find_first_of(D) != string::npos;
 }
